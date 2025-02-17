@@ -1,5 +1,6 @@
 ---
 title: Datasets from Mark Smucker's Research Group
+layout: none
 ---
 
 # Datasets from Mark Smucker's Research Group

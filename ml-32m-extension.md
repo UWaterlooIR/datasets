@@ -1,5 +1,6 @@
 ---
 title: MovieLens-32M Extension Dataset
+layout: none
 ---
 
 # MovieLens-32M Extension
