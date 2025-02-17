@@ -23,22 +23,22 @@ Any other uses of the dataset are strictly prohibited.  These
 restrictions are in-place to abide by the informed constent that
 participants provided for "broad consent for the storage and future
 unspecified use of data" as per [TCPS 2 (2022), Chapter 3, Section
-E](https://ethics.gc.ca/eng/tcps2-eptc2_2022_chapter3-chapitre3.html#e),
-for blanket consent is not permitted by TCPS.
+E](https://ethics.gc.ca/eng/tcps2-eptc2_2022_chapter3-chapitre3.html#e).
+To have the data available without restriction would require blanket
+consent, which is not permitted by TCPS 2 (2022).
 
 ## **Requesting Access**
 
-To request access to the dataset, please [submit the required form](#)
-and send email to
-[mark.smucker@uwaterloo.ca](mailto:mark.smucker@uwaterloo.ca) with a
-subject line of: "Request for access to ML-32M Extension" informing me
-that you've submitted the form.  Please be patient, for at times I may
-be away from the office for periods of up to several weeks.  If you
-haven't heard from me in 2 weeks, you are welcome to email me again.
+To request access to the dataset, please [submit the required form](https://docs.google.com/forms/d/e/1FAIpQLSczXXCac-rjaGd6YMBhVl-xNDvA4_etnhHKVxWhE-Qih9AW5A/viewform?usp=header)
 
 Once granted access, you will be added as a collaborator with
-read-only access to a private repository containing the ML-32M
-extension dataset.
+read-only access to a [private repository containing the ML-32M
+extension dataset](https://github.com/UWaterlooIR/ml-32m-extension).
 
-For questions, please contact me at [mark.smucker@uwaterloo.ca](mailto:mark.smucker@uwaterloo.ca).
+Please be patient, for at times I may be away from the office for
+periods of up to several weeks.  If you haven't heard from me in 2
+weeks, you are welcome to email me.
+
+For questions, please contact me at
+[mark.smucker@uwaterloo.ca](mailto:mark.smucker@uwaterloo.ca).
 
