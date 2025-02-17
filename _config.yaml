@@ -1,8 +1,0 @@
-
-title: "Datasets from Mark Smucker's Research Group"
-description: "A collection of datasets available for research on information retrieval and recommender system evaluation."
-# theme: jekyll-theme-minimal  
-baseurl: "/datasets"
-url: "https://uwaterlooir.github.io"
-
-markdown: kramdown
