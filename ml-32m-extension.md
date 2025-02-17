@@ -20,7 +20,7 @@ recommender systems**. To access the dataset, researchers must:
 - Refrain from attempting to identify any anonymous participants in the dataset.
 
 Any other uses of the dataset are strictly prohibited.  These
-restrictions are in-place to abide by the informed constent that
+restrictions are in-place to abide by the informed consent that
 participants provided for "broad consent for the storage and future
 unspecified use of data" as per [TCPS 2 (2022), Chapter 3, Section
 E](https://ethics.gc.ca/eng/tcps2-eptc2_2022_chapter3-chapitre3.html#e).
@@ -29,7 +29,7 @@ consent, which is not permitted by TCPS 2 (2022).
 
 ## **Requesting Access**
 
-To request access to the dataset, please [submit the required form](https://docs.google.com/forms/d/e/1FAIpQLSczXXCac-rjaGd6YMBhVl-xNDvA4_etnhHKVxWhE-Qih9AW5A/viewform?usp=header)
+To request access to the dataset, please [submit the required form](https://forms.gle/SUTtKLjNyRn2fKYCA)
 
 Once granted access, you will be added as a collaborator with
 read-only access to a [private repository containing the ML-32M
