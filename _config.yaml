@@ -1,0 +1,15 @@
+title: "Datasets from Mark Smucker's Research Group"
+description: "A collection of datasets available for research on information retrieval and recommender system evaluation."
+theme: jekyll-theme-cayman  # Change this to try other themes
+baseurl: "/datasets"  # Required for proper link handling
+url: "https://uwaterlooir.github.io"
+
+# Enable Markdown processing
+markdown: kramdown
+
+# (Optional) Add navigation links (for custom themes)
+navbar-links:
+  Home: "/datasets/"
+  MovieLens-32M Extension: "ml-32m-extension"
+  # About: "/datasets/about"
+  # Contact: "/datasets/contact"
