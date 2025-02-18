@@ -5,18 +5,19 @@ title: MovieLens-32M Extension Dataset
 # MovieLens-32M Extension
 
 The **MovieLens-32M Extension** dataset, as described in the paper
-*Extending MovieLens-32M to Provide New Evaluation Objectives*, is
-available for research purposes.  
+*Extending MovieLens-32M to Provide New Evaluation Objectives*, by
+Smucker and Chamani, is available for research purposes.
 
 ## **Access and Usage Restrictions**
 
-This dataset is **only available to researchers** for the **evaluation
-of recommender systems** or conducting studies on the **evaluation of
-recommender systems**. To access the dataset, researchers must:
+This dataset is **only available to researchers** for **research on
+evaluation of recommendation systems and similar purposes**.
+
+To access the dataset, researchers must:
 
 - Submit a form attesting to their status as a researcher.
 - Agree to keep the dataset private and not publicly share it.
-- Use the dataset **only** for evaluating recommender systems and research on evaluation.
+- Use the dataset only for research on evaluation of recommendation systems and similar purposes.
 - Refrain from attempting to identify any anonymous participants in the dataset.
 
 Any other uses of the dataset are strictly prohibited.  These
