@@ -36,10 +36,14 @@ Once granted access, you will be added as a collaborator with
 read-only access to a [private repository containing the ML-32M
 extension dataset](https://github.com/UWaterlooIR/ml-32m-extension).
 
+You can read a [copy of the README](ml-32m-ext-readme-copy.md) for the
+private repository, which describes its contents.
+
 Please be patient, for at times I may be away from the office for
 periods of up to several weeks.  If you haven't heard from me in 2
 weeks, you are welcome to email me.
 
 For questions, please contact me at
 [mark.smucker@uwaterloo.ca](mailto:mark.smucker@uwaterloo.ca).
+
 
