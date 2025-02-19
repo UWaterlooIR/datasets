@@ -30,7 +30,7 @@ consent, which is not permitted by TCPS 2 (2022).
 
 ## **Requesting Access**
 
-To request access to the dataset, please [submit the required form](https://forms.gle/SUTtKLjNyRn2fKYCA)
+To request access to the dataset, please [submit the required form](https://forms.gle/SUTtKLjNyRn2fKYCA).
 
 Once granted access, you will be added as a collaborator with
 read-only access to a [private repository containing the ML-32M
