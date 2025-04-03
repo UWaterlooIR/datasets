@@ -5,8 +5,9 @@ title: MovieLens-32M Extension Dataset
 # MovieLens-32M Extension
 
 The **MovieLens-32M Extension** dataset, as described in the paper
-*Extending MovieLens-32M to Provide New Evaluation Objectives*, by
-Smucker and Chamani, is available for research purposes.
+[*Extending MovieLens-32M to Provide New Evaluation Objectives*, by
+Smucker and Chamani](https://doi.org/10.48550/arXiv.2504.01863),
+is available for research purposes.
 
 ## **Access and Usage Restrictions**
 
