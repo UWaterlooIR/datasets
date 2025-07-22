@@ -1,11 +1,13 @@
 
-# Copy as of Feb 18, 2025 of the README for the [ml-32m-extension private repository](https://github.com/UWaterlooIR/ml-32m-extension) 
+# Copy as of July 22, 2025 of the README for the [ml-32m-extension private repository](https://github.com/UWaterlooIR/ml-32m-extension) 
 
 ## ML-32M-Extension README **Copy**
 
-This repository contains the resource described in "Extending
+This repository contains the resource described in ["Extending
 MovieLens-32M to Provide New Evaluation Objectives" by Smucker and
-Chamani.
+Chamani](https://doi.org/10.1145/3726302.3730328).
+
+If you need help or have questions, please contact Mark Smucker (mark.smucker@uwaterloo.ca).
 
 ## Reminder about Restrictions on Usage
 
@@ -71,12 +73,13 @@ https://github.com/RUCAIBox/RecSysDatasets/blob/master/conversion_tools/usage/Mo
 but use the implicit-ratings.csv as ratings.csv and
 filtered-movies.csv as movies.csv inside your fake ml-20m dataset.
 
-For example, if I've copied implicit-ratings.csv and
+For example, if you've copied implicit-ratings.csv and
 filtered-movies.csv to a directory ml-implicit as ratings.csv and
 movies.csv, respectively, then you can convert to Recbole atomic format
 following their directions as follows:
-
+```
 python run.py --dataset ml-20m --input_path ml-implicit --output_path output_data/ml-implicit --convert_inter --convert_item
+```
 
 ## Details about the Files
 
@@ -97,7 +100,9 @@ contain gaps.  These gaps are the result of removal of participants
 who did not finish P2.
 
 The movie_id column is a MovieLens movie_id, and the movielens_rating
-is the rating.
+is the rating.  Some of the movies are not found in ML-32M, but do
+exist in movielens.org, which is a reminder that ML-32M is a sample of
+movielens.org.
 
 ### p2-ratings.csv
 
@@ -159,15 +164,37 @@ These are in standard TREC qrels format:
 
 #### Resources to use with qrels files
 
-The *compatibility* measure:
+The *compatibility* measure for use with the preference-based `*interest*.qrels`:
 
 + Version used in paper: https://github.com/trec-health-misinfo/Compatibility 
 + Official version: https://github.com/claclark/Compatibility
 
 trec_eval for nDCG and many other measures: https://github.com/usnistgov/trec_eval
 
+## Citation
 
+Mark D. Smucker and Houmaan Chamani. 2025. Extending MovieLens-32M to Provide New Evaluation Objectives. In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '25). Association for Computing Machinery, New York, NY, USA, 3520–3529. https://doi.org/10.1145/3726302.3730328
 
+```
+@inproceedings{smucker25:ml-32m-extension,
+author = {Smucker, Mark D. and Chamani, Houmaan},
+title = {Extending MovieLens-32M to Provide New Evaluation Objectives},
+year = {2025},
+isbn = {9798400715921},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3726302.3730328},
+doi = {10.1145/3726302.3730328},
+abstract = {Offline evaluation of recommender systems has traditionally treated the problem as a machine learning problem. In the classic case of recommending movies, where the user has provided explicit ratings of which movies they like and don't like, each user's ratings are split into test and train sets, and the evaluation task becomes to predict the held out test data using the training data. This machine learning style of evaluation makes the objective to recommend the movies that a user has watched and rated highly, which is not the same task as helping the user find movies that they would enjoy if they watched them. This mismatch in objective between evaluation and task is a compromise to avoid the cost of asking a user to evaluate recommendations by watching each movie. As a resource available for download, we offer an extension to the MovieLens-32M dataset that provides for new evaluation objectives. Our primary objective is to predict the movies that a user would be interested in watching, i.e. predict their watchlist. To construct this extension, we recruited MovieLens users, collected their profiles, made recommendations with a diverse set of algorithms, pooled the recommendations, and had the users assess the pools. This paper demonstrates the feasibility of using pooling to construct a test collection for recommender systems. Notably, we found that the traditional machine learning style of evaluation ranks the Popular algorithm, which recommends movies based on total number of ratings in the system, in the middle of the twenty-two recommendation runs we used to build the pools. In contrast, when we rank the runs by users' interest in watching movies, we find that recommending popular movies as a recommendation algorithm becomes one of the worst performing runs. It appears that by asking users to assess their personal recommendations, we can alleviate the issue of popularity bias in the evaluation of top-n recommendation.},
+booktitle = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {3520–3529},
+numpages = {10},
+keywords = {pooling, recommender systems, test collection},
+location = {Padua, Italy},
+series = {SIGIR '25}
+}
+
+```
 
 
 
